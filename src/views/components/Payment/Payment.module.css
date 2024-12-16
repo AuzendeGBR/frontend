@@ -1,0 +1,92 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #0b3175;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modalContent h2 {
+  margin-bottom: 12px;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fe7e00;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.removeButton,
+.checkoutButton,
+.closeButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.removeButton {
+  background-color: red;
+  color: white;
+}
+
+.checkoutButton {
+  background-color: green;
+  color: white;
+  margin-right: 8px;
+}
+
+.closeButton {
+  background-color: gray;
+  color: white;
+}
+
+.paymentMethods {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.paymentMethod {
+  width: 100px;
+  height: auto;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.paymentMethod:hover {
+  border-color: #ccc;
+}
+
+.paymentMethod.active {
+  border-color: #007bff;
+}

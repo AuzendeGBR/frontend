@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  margin: 80px auto 0 auto;
+  place-items: center;
+}
+
+.title {
+  font-size: 62px;
+}
+
+.servicesList {
+  list-style: none;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.listItem {
+  background-color: #0b3175;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+}
+
+.listItem h2 {
+  margin-bottom: 8px;
+}
+
+.listItem p {
+  margin-bottom: 6px;
+}
+.dateTimeSelector {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='datetime-local'] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submitButton {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
