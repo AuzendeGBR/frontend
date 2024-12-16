@@ -9,10 +9,10 @@ Este é o frontend da aplicação de gerenciamento de usuários e serviços, des
 
 ## Configuração do Ambiente
 
-1. Clone o repositório:
+1. Clone o repositório: 
 
 ```bash
-git clone 
+git clone https://github.com/AuzendeGBR/frontend
 ```
 
 2. Instale as dependências:
